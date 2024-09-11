@@ -1,0 +1,59 @@
+/* gradient background code */
+.gradient-background {
+	background: linear-gradient(-45deg, #FA8837, #e73c7e, #003566, #23d5ab);
+	background-size: 180% 180%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul.nav a:hover { color: #aeacab !important; }
+#navbar ul.nav {
+    
+      background-color: #00000045;
+    border-radius: 10%;
+    
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #e73c7e;
+}
+
+.card:hover{
+    transform: translateY(-15px); 
+  }
+
+  #footer ul>li:hover{
+    transform: translateY(-5px); 
+    color: inherit !important;
+  }
+  #footer ul>li>a:hover{ 
+    color: #fff !important;
+  }
+
+   .feature-icon a:hover{
+    transform: translateY(-5px); 
+    color: inherit !important;
+  }
+ /*  .card{
+    min-width: 400px;
+  } */
+  
+  /* #footer ul.nav >li{
+    color: #fff;
+    background-color: #fff;
+  border-radius: 10%;
+  
+} */
