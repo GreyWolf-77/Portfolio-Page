@@ -43,17 +43,12 @@ ul.nav a:hover { color: #aeacab !important; }
     color: #fff !important;
   }
 
-   .feature-icon a:hover{
+   .hover-effect:hover{
     transform: translateY(-5px); 
     color: inherit !important;
-  }
- /*  .card{
-    min-width: 400px;
-  } */
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
   
-  /* #footer ul.nav >li{
-    color: #fff;
-    background-color: #fff;
-  border-radius: 10%;
-  
-} */
+
